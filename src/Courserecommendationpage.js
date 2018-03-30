@@ -55,6 +55,19 @@ class Courserecommendationpage extends Component {
 								"<li>Course CRN: " + lab.CRN + "</li>" +
 								"</ul>"
 							}
+							
+							for ( var k=0;k<res.Problems.length;k++){
+								var lab = res.Problems[k]
+								document.getElementById("messagebox").innerHTML += 
+								"<h4>Course Code: " + lab.Course + "</h4>" +
+								"<ul>" + 
+								"<li>Course Title: " + lab.Title + "</li>" +
+								"<li>Instructor: " + lab.Instructor + "</li>" +
+								"<li>Meeting time: " + lab["Meeting Time"] + "</li>" +
+								"<li>Room: " + lab.Room + "</li>" +
+								"<li>Course CRN: " + lab.CRN + "</li>" +
+								"</ul>"
+							}
 						}
 					}
 				})
