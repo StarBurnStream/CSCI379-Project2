@@ -84,7 +84,7 @@ class Courserecommendationpage extends Component {
 								<option value="CENG">Civil Engineering</option>
 								<option value="CPEG">Computer Engineering</option>
 								<option value="CSEG">Computer Science & Engineering</option>
-								<option value="ELEG">Electrical Engineering</option>
+								<option value="ELEC">Electrical Engineering</option>
 								<option value="EVEG">Environmental Engineering</option>
 								<option value="MECH">Mechanical Engineering</option>
 							</select>
